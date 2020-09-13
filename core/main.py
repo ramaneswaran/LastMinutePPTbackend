@@ -25,7 +25,7 @@ from flask import request, jsonify, send_from_directory
 # Import core functions
 from .summarizer import get_summary, get_title, get_bullets
 from .media import parse_tree, get_image_subject, needs_image, needs_plot, needs_table, get_plot_name
-
+from .images import get_image
 
 
 class App(Flask):
@@ -109,4 +109,8 @@ def driver():
 
 @app.route("/get-image/<image_name>")
 def get_image(image_name):
+
+        # Scrape image
+        get_image(image_name)
+
         return send_from_directory("C:/Users/Muskan Rastogi/Documnets", filename=image_name, as_attachment=True)

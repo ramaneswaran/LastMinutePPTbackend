@@ -99,6 +99,18 @@ def persist_image(folder_path:str,file_name:str,url:str):
     except Exception as e:
         print(f"ERROR - Could not save {url} - {e}")
 
+def get_image(query):
+    wd = webdriver.Chrome(executable_path=DRIVER_PATH)
+    wd.get('https://google.com')
+    search_box = wd.find_element_by_css_selector('input.gLFyf')
+    search_box.send_keys(query)
+    links = fetch_image_urls(query,2,wd) # 500 denotes no. of images you want to download
+    images_path = 'C:/Users/Muskan Rastogi/Documents'
+    for i in links:
+        persist_image(images_path,query,i)
+    wd.quit()
+    
+
 if __name__ == '__main__':
     wd = webdriver.Chrome(executable_path=DRIVER_PATH)
     queries = ["zebra"]  #change your set of queries here
