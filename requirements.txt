@@ -1,0 +1,6 @@
+Flask==1.1.2
+pytextrank==2.0.2
+onnxruntime==1.4.0
+spacy==2.3.2
+nltk==3.5
+tensorflow==2.2.0
