@@ -12,8 +12,8 @@ Project which automatically generates crucial business and leisure presentation 
 
 ![Generic badge](https://img.shields.io/badge/Last_Minute-PPTs-orange) 
 
-#### Link for [demo](https://lmppt.ramaneswaran.com) 
-[![Generic badge](https://img.shields.io/badge/view-demo-orange)](https://lmppt.ramaneswaran.com)
+#### Link for [demo](https://lmppt.akshatvg.com) 
+[![Generic badge](https://img.shields.io/badge/view-demo-orange)](https://lmppt.akshatvg.com)
 
 ## Useful Links
 
