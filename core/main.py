@@ -13,13 +13,19 @@ import pytextrank
 # Import TF libraries
 import tensorflow as tf
 
+# Import webdriver
+from selenium import webdriver
+from pyvirtualdisplay import Display
+
 # Import flask
 from flask import Flask
+from flask_cors import CORS
 from flask import request, jsonify
 
 # Import core functions
 from .summarizer import get_summary, get_title, get_bullets
 from .media import parse_tree, get_image_subject, needs_image, needs_plot, needs_table, get_plot_name
+
 
 
 class App(Flask):
@@ -43,6 +49,7 @@ class App(Flask):
 
 
 app = App(__name__)
+CORS(app)
 
 
 @app.route("/getTitle", methods=["POST"])
