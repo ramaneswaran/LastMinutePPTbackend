@@ -29,7 +29,7 @@ The source code of this project is written in **`Python`**. So, you do not requi
 
 [![chrome](https://img.shields.io/badge/Open-index.html-lightgrey.svg?logo=google-chrome&style=popout&logoColor=red)](#!)
 
-Extract the folder and install requirements and run `python run.py`
+Extract the folder and install requirements then run `python run.py`
 
 
 
