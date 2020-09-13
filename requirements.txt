@@ -4,3 +4,6 @@ onnxruntime==1.4.0
 spacy==2.3.2
 nltk==3.5
 tensorflow==2.2.0
+selenium
+pillow
+requests
