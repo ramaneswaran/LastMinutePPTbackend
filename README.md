@@ -6,7 +6,7 @@ Project which automatically generates crucial business and leisure presentation 
 
 <p align="center">
 <a href="#!">
-<img src="assets/img/logo.png" width="200px" alt="Last Minute PPTs Logo"/>
+<img src="assets/logo.png" width="200px" alt="Last Minute PPTs Logo"/>
 </a>
 </p>
 
