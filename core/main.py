@@ -20,7 +20,7 @@ from pyvirtualdisplay import Display
 # Import flask
 from flask import Flask
 from flask_cors import CORS
-from flask import request, jsonify
+from flask import request, jsonify, send_from_directory
 
 # Import core functions
 from .summarizer import get_summary, get_title, get_bullets
@@ -105,3 +105,8 @@ def driver():
       
 
     return jsonify(data)
+
+
+@app.route("/get-image/<image_name>")
+def get_image(image_name):
+        return send_from_directory("C:/Users/Muskan Rastogi/Documnets", filename=image_name, as_attachment=True)
