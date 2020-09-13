@@ -1,6 +1,6 @@
 # Last Minute PPTs- Backend
 
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ramaneswaran/LastMinutePPTFrontend?logo=github&style=social)](https://github.com/ramaneswaran/) [![GitHub last commit](https://img.shields.io/github/last-commit/ramaneswaran/LastMinutePPTFrontend?style=social&logo=git)](https://github.com/ramaneswaran/) [![GitHub stars](https://img.shields.io/github/stars/ramaneswaran/LastMinutePPTFrontend?style=social)](https://github.com/ramaneswaran/LastMinutePPTFrontend/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ramaneswaran/LastMinutePPTFrontend?style=social&logo=git)](https://github.com/ramaneswaran/LastMinutePPTFrontend/network)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ramaneswaran/LastMinutePPTbackend?logo=github&style=social)](https://github.com/ramaneswaran/) [![GitHub last commit](https://img.shields.io/github/last-commit/ramaneswaran/LastMinutePPTbackend?style=social&logo=git)](https://github.com/ramaneswaran/) [![GitHub stars](https://img.shields.io/github/stars/ramaneswaran/LastMinutePPTbackend?style=social)](https://github.com/ramaneswaran/LastMinutePPTbackend/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ramaneswaran/LastMinutePPTbackend?style=social&logo=git)](https://github.com/ramaneswaran/LastMinutePPTbackend/network)
 
 Project which automatically generates crucial business and leisure presentation slides based on what you say in real time.
 
@@ -21,7 +21,7 @@ Project which automatically generates crucial business and leisure presentation 
 
 ## Requirements
 
-[![GitHub top language](https://img.shields.io/github/languages/top/ramaneswaran/LastMinutePPTFrontend?logo=css&style=social)](https://github.com/ramaneswaran/)
+[![GitHub top language](https://img.shields.io/github/languages/top/ramaneswaran/LastMinutePPTbackend?logo=css&style=social)](https://github.com/ramaneswaran/)
 
 The source code of this project is written in **`Python`**. So, you do not require anything extra to run this project.
 
