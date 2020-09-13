@@ -23,13 +23,15 @@ Project which automatically generates crucial business and leisure presentation 
 
 [![GitHub top language](https://img.shields.io/github/languages/top/ramaneswaran/LastMinutePPTbackend?logo=css&style=social)](https://github.com/ramaneswaran/)
 
-The source code of this project is written in **`Python`**. So, you do not require anything extra to run this project.
+The source code of this project is written in **`Python (Flask)`**. So, you need to install the requirements before you proceed.
 
-## Instructions
-
-[![chrome](https://img.shields.io/badge/Open-index.html-lightgrey.svg?logo=google-chrome&style=popout&logoColor=red)](#!)
-
-Extract the folder and install requirements then run `python run.py`
+## Instructions to Run
+```
+$ git clone https://github.com/ramaneswaran/LastMinutePPTbackend
+$ cd LastMinutePPTbackend
+$ pip3 install -r requirements.txt
+$ python3 run.py
+```
 
 
 
