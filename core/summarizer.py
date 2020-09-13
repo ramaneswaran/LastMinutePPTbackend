@@ -48,12 +48,15 @@ def get_title(doc):
     
     phrases = doc._.phrases
     
+
+    print(phrases)
+
     if len(phrases)>0:
         phrase =  phrases[0].text
         phrase = phrase.title()
         return phrase
 
-    if (len(doc.sents)) == 1:
+    else:
         return doc.text
 
 
